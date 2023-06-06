@@ -4,8 +4,8 @@ import resume from '../../assets/resume.jpg'
 
 export default function Resume() {
     return (
-        <main id="resume">
-        <img src={resume} className="resumejpg"/>
+        <main className="d-flex justify-content-center">
+        <img src={resume}/>
         </main>
     )
 }

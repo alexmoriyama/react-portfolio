@@ -8,8 +8,8 @@ import Template from "../../components/ProjectCard.js"
 export default function Portfolio() {
     return (
         <main className = "Portfolio">
-            <h2>Portfolio</h2>
-                <section className = 'projectCards'>
+            <h2 className = "text-center">Portfolio</h2>
+                <section className = 'd-flex justify-content-around projectCards'>
                     <Template
                     name = "Brewvey"
                     pic={project1}
